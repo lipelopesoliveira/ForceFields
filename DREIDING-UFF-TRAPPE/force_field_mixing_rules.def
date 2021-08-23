@@ -3,7 +3,7 @@ truncated
 # general rule tailcorrections
 yes
 # number of defined interactions
-46
+49
 # type interaction, parameters.    IMPORTANT: define shortest matches first, so that more specific ones overwrites these
 O_             lennard-jones    48.1581   3.03315      // DREIDING S.L. Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909.
 N_             lennard-jones    38.9492   3.26256      // DREIDING
@@ -45,11 +45,14 @@ N_com          none                                    // idem
 O_o2           lennard-jones    53.023    3.045        // A. Martin-Calvo et al. , Phys. Chem. Chem. Phys. 2011, 13, 11165-11174.
 O_com          none                                    //
 Ar             lennard-jones   124.070    3.38         // A. Martin-Calvo et al. , Phys. Chem. Chem. Phys. 2011, 13, 11165-11174.
-CH4            lennard-jones    148.0     3.73         // M. G. Martin et al., J. Phys. Chem. B 102, 2569-2577 (1998).
+CH4            lennard-jones    158.5     3.72         // M. G. Martin et al., J. Chem. Phys. 2001, 114, 7174-7181.
 H_h2           lennard-jones    0.0       0.0
 H_com          lennard-jones    36.7      2.958
-C_co           lennard-jones    40.109    3.379        // A. Martin-Calvo et al. , Phys. Chem. Chem. Phys. 2015, 17,  24045-24055.
-CO_com         lennard-jones    0.0       0.0       
-O_co           lennard-jones    98.839    3.057      
+C_co           lennard-jones    16.141    3.636        // A. Martin-Calvo et al. , J. Phys. Chem. C. 2012, 116, 6655.
+CO_com         lennard-jones    0.0       0.0          // idem
+O_co           lennard-jones    98.014    2.979        // idem
+S_S            lennard-jones    275.0     3.70         // Gutierrez-Sevillano et al., Rcs Advances 2013, 3, 14737
+H_S            lennard-jones    0.00      0.00         // idem
+M_S            lennard-jones    0.00      0.00         // idem
 # general mixing rule for Lennard-Jones
 Lorentz-Berthelot
