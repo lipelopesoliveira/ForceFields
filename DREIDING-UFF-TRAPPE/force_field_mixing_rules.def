@@ -4,7 +4,7 @@ truncated
 yes
 # number of defined interactions
 49
-# type interaction, parameters.    IMPORTANT: define shortest matches first, so that more specific ones overwrites these
+# type interaction, parameters (epsilon/K [K], sigma [A]). IMPORTANT: define shortest matches first, so that more specific ones overwrites these
 O_             lennard-jones    48.1581   3.03315      // DREIDING S.L. Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909.
 N_             lennard-jones    38.9492   3.26256      // DREIDING
 C_             lennard-jones    47.8562   3.47299      // DREIDING
