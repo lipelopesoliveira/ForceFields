@@ -5,18 +5,18 @@ yes
 # number of defined interactions
 49
 # type,        interaction,  epsilon [K],  sigma [A] IMPORTANT: define shortest matches first, so that more specific ones overwrites these
-O_             lennard-jones    48.1581   3.03315      // DREIDING S.L. Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909.
-N_             lennard-jones    38.9492   3.26256      // DREIDING
-C_             lennard-jones    47.8562   3.47299      // DREIDING
-F_             lennard-jones    36.4834   3.0932       // DREIDING
-B_             lennard-jones    47.8058   3.58141      // DREIDING
-P_             lennard-jones   161.03     3.69723      // DREIDING
-S_             lennard-jones   173.107    3.59032      // DREIDING
-Cl_            lennard-jones   142.562    3.51932      // DREIDING
-Br_            lennard-jones   186.191    3.51905      // DREIDING
-H_             lennard-jones     7.64893  2.84642      // DREIDING
-Al_            lennard-Jones   155.998    3.91105      // DREIDING
-Si_            lennard-Jones   155.998    3.80414      // DREIDING
+O_             lennard-jones    48.1584   3.40460     // DREIDING S.L. Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909.
+N_             lennard-jones    38.9494   3.66210     // DREIDING
+C_             lennard-jones    47.8565   3.8983      // DREIDING
+F_             lennard-jones    36.4836   3.4720      // DREIDING
+B_             lennard-jones    47.8062   4.0200      // DREIDING
+P_             lennard-jones   161.0313   4.1500      // DREIDING
+S_             lennard-jones   173.1086   4.0300      // DREIDING
+Cl_            lennard-jones   142.5630   3.9503      // DREIDING
+Br_            lennard-jones   186.1920   3.9500      // DREIDING
+H_             lennard-jones     7.648985 3.1950      // DREIDING
+Al_            lennard-Jones   156.0000   4.3900      // DREIDING
+Si_            lennard-Jones   156.0000   4.2700      // DREIDING
 Zn_            lennard-jones    62.3992   2.46155      // UFF A.K. Rappé et al., J. Am. Chem. Soc. 1992, 114, 10024-10035.
 Be_            lennard-jones    42.7736   2.44552      // UFF
 Cr_            lennard-jones     7.54829  2.69319      // UFF
