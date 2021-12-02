@@ -16,6 +16,8 @@ The conversion from kcal/mol to K is made dividing by the Boltzman constant (K<s
 
 ## DREIDING Parameters
 
+Parameters taken from Table II of *MAYO, Stephen L.; OLAFSON, Barry D.; GODDARD, William A. DREIDING: a generic force field for molecular simulations. Journal of Physical chemistry, v. 94, n. 26, p. 8897-8909, 1990.*
+
 | Atom | R<sub>min</sub> (A)  | D<sub>0</sub> (kcal/mol) | σ (A)   | ε (K)      |
 |------|---------|---------------|---------|------------|
 | H    | 3.19500 | 0.01520       | 2.84642 | 7.648938   |
