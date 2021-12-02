@@ -12,7 +12,7 @@ For the adsorbate atoms the parameters is taken from different sources, all docu
 
 The Lennard-Jones potential has it minumum at a ditance R<sub>min</sub> = 2<sup>1/6</sup> . σ, so the conversion from R<sub>min</sub> to sigma is made dividing R<sub>min</sub> by 2<sup>1/6</sup>.
 
-The conversion from kcal/mol to K is made dividing by the Boltzman constant (K<sub>b</sub>) in kcal/[mol.K] 0.0019872041
+The conversion from kcal/mol to K is made dividing by the Boltzman constant (K<sub>b</sub>) in kcal/[mol.K] = 0.0019872041
 
 ## DREIDING Parameters
 
