@@ -6,7 +6,7 @@ This force field is built by combining the main parameters from `DREIDING` force
 For the adsorbate atoms the parameters is taken from different sources, all documented in the `force_field_mixing_rules.def` file.
 
 The Lennard-Jones potential has it minumum at a ditance R0 = 2<sup>1/6</sup> . σ, so the conversion from R<sub>0</sub> to sigma is made dividing R0 by 2<sup>1/6</sup> .
-The conversion from kcal/mol to K is made dividing by the Boltzman constant (kb) in kcal/(mol.K) 0.0019872041
+The conversion from kcal/mol to K is made dividing by the Boltzman constant (K<sub>b</sub>) in kcal/[mol.K] 0.0019872041
 
 ## DREIDING Parameters
 
