@@ -10,13 +10,13 @@ For the adsorbate atoms the parameters is taken from different sources, all docu
 ![CodeCogsEqn](https://user-images.githubusercontent.com/33868364/144495206-9dd075db-1c04-4969-98fc-3cb84b82e332.png)
 
 
-The Lennard-Jones potential has it minumum at a ditance R0 = 2<sup>1/6</sup> . σ, so the conversion from R<sub>0</sub> to sigma is made dividing R0 by 2<sup>1/6</sup>.
+The Lennard-Jones potential has it minumum at a ditance R0 = 2<sup>1/6</sup> . σ, so the conversion from R<sub>min</sub> to sigma is made dividing R0 by 2<sup>1/6</sup>.
 
 The conversion from kcal/mol to K is made dividing by the Boltzman constant (K<sub>b</sub>) in kcal/[mol.K] 0.0019872041
 
 ## DREIDING Parameters
 
-| Atom | R<sub>0</sub> (A)  | D<sub>0</sub> (kcal/mol) | σ (A)   | ε (K)      |
+| Atom | R<sub>min</sub> (A)  | D<sub>0</sub> (kcal/mol) | σ (A)   | ε (K)      |
 |------|---------|---------------|---------|------------|
 | H    | 3.19500 | 0.01520       | 2.84642 | 7.648938   |
 | B    | 4.02000 | 0.09500       | 3.58141 | 47.805859  |
@@ -42,7 +42,7 @@ The conversion from kcal/mol to K is made dividing by the Boltzman constant (K<s
 
 ## UFF Parameters
 
-| Atom | R0 (A)   | D0 (kcal/mol) | σ (A)    | ε (K)     |
+| Atom | R<sub>min</sub> (A)  | D<sub>0</sub> (kcal/mol) | σ (A)    | ε (K)     |
 |------|----------|---------------|----------|-----------|
 | C    | 3.85100  | 0.10500       | 3.43085  | 52.83806  |
 | O    | 3.50000  | 0.06000       | 3.11815  | 30.19317  |
