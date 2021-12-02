@@ -44,6 +44,8 @@ Parameters taken from Table II of *MAYO, Stephen L.; OLAFSON, Barry D.; GODDARD,
 
 ## UFF Parameters
 
+Parameters taken from Table 1 of *RAPPÉ, Anthony K. et al. UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations. Journal of the American chemical society, v. 114, n. 25, p. 10024-10035, 1992.*
+
 | Atom | R<sub>min</sub> (A)  | D<sub>0</sub> (kcal/mol) | σ (A)    | ε (K)     |
 |------|----------|---------------|----------|-----------|
 | C    | 3.85100  | 0.10500       | 3.43085  | 52.83806  |
