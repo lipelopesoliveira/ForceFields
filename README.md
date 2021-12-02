@@ -5,7 +5,7 @@ This force field is built by combining the main parameters from `DREIDING` force
 
 For the adsorbate atoms the parameters is taken from different sources, all documented in the `force_field_mixing_rules.def` file.
 
-![Schematic_of_the_Lennard-Jones_6-12_Potential](https://user-images.githubusercontent.com/33868364/144495503-e21b139e-a3ee-4ba7-af54-3df163ce9fcf.png)
+<img src="https://user-images.githubusercontent.com/33868364/144495503-e21b139e-a3ee-4ba7-af54-3df163ce9fcf.png" alt="Schematic_of_the_Lennard-Jones_6-12_Potential" width="200"/>
 
 ![CodeCogsEqn](https://user-images.githubusercontent.com/33868364/144495206-9dd075db-1c04-4969-98fc-3cb84b82e332.png)
 
