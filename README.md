@@ -10,7 +10,7 @@ The conversion from kcal/mol to K is made dividing by the Boltzman constant (K<s
 
 ## DREIDING Parameters
 
-| Atom | R<sub>0</sub> (A)  | D0 (kcal/mol) | σ (A)   | ε (K)      |
+| Atom | R<sub>0</sub> (A)  | D<sub>0</sub> (kcal/mol) | σ (A)   | ε (K)      |
 |------|---------|---------------|---------|------------|
 | H    | 3.19500 | 0.01520       | 2.84642 | 7.648938   |
 | B    | 4.02000 | 0.09500       | 3.58141 | 47.805859  |
