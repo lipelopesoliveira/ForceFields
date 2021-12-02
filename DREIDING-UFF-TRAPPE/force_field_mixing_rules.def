@@ -5,38 +5,46 @@ yes
 # number of defined interactions
 49
 # type,        interaction,  epsilon [K],  sigma [A] IMPORTANT: define shortest matches first, so that more specific ones overwrites these
-O_             lennard-jones    48.1584   3.40460     // DREIDING S.L. Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909.
-N_             lennard-jones    38.9494   3.66210     // DREIDING
-C_             lennard-jones    47.8565   3.8983      // DREIDING
-F_             lennard-jones    36.4836   3.4720      // DREIDING
-B_             lennard-jones    47.8062   4.0200      // DREIDING
-P_             lennard-jones   161.0313   4.1500      // DREIDING
-S_             lennard-jones   173.1086   4.0300      // DREIDING
-Cl_            lennard-jones   142.5630   3.9503      // DREIDING
-Br_            lennard-jones   186.1920   3.9500      // DREIDING
-H_             lennard-jones     7.648985 3.1950      // DREIDING
-Al_            lennard-Jones   156.0000   4.3900      // DREIDING
-Si_            lennard-Jones   156.0000   4.2700      // DREIDING
-Zn_            lennard-jones    62.3992   2.46155      // UFF A.K. Rappé et al., J. Am. Chem. Soc. 1992, 114, 10024-10035.
+H_             lennard-jones   7.648938   2.84642      // DREIDING  S.L. Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909.
+B_             lennard-jones    47.8058   3.58141      // DREIDING
+C_             lennard-jones    47.8562   3.47299      // DREIDING
+N_             lennard-jones    38.9492   3.26256      // DREIDING
+O_             lennard-jones    48.1581   3.03315      // DREIDING 
+F_             lennard-jones    36.4834   3.09320      // DREIDING
+Al_            lennard-Jones   155.9981   3.91105      // DREIDING
+Si_            lennard-Jones   155.9981   3.80414      // DREIDING
+P_             lennard-jones   161.0303   3.69723      // DREIDING
+S_             lennard-jones   173.1075   3.59032      // DREIDING
+Cl_            lennard-jones   142.5621   3.51932      // DREIDING
+Ga_            lennard-jones   201.2878   3.91105      // DREIDING
+Ge_            lennard-jones   201.2878   3.80414      // DREIDING
+As_            lennard-jones   206.3200   3.69723      // DREIDING
+Se_            lennard-jones   216.3844   3.59032      // DREIDING
+Br_            lennard-jones   186.1912   3.51905      // DREIDING
+In_            lennard-jones   276.7707   4.08923      // DREIDING
+Sn_            lennard-jones   276.7708   3.98232      // DREIDING
+Sb_            lennard-jones   276.7708   3.87541      // DREIDING
+Te_            lennard-jones   286.8352   3.76850      // DREIDING
+I_             lennard-jones   256.6420   3.69723      // DREIDING
+Zn_            lennard-jones    62.3992   2.46155      // UFF A.K. Rappé et al., J. Am. Chem. Soc. 1992, 114, 10024-10035. 
 Be_            lennard-jones    42.7736   2.44552      // UFF
-Cr_            lennard-jones     7.54829  2.69319      // UFF
-Fe_            lennard-jones     6.54185  2.5943       // UFF
-Mn_            lennard-jones     6.54185  2.63795      // UFF
+Cr_            lennard-jones     7.5483   2.69319      // UFF
+Fe_            lennard-jones     6.5419   2.5943       // UFF
+Mn_            lennard-jones     6.5419   2.63795      // UFF
 Cu_            lennard-jones     2.5161   3.11369      // UFF
-Co_            lennard-jones     7.04507  2.55866      // UFF
-Ga_            lennard-jones   208.836    3.90481      // UFF
-Ti_            lennard-jones     8.55473  2.8286       // UFF
-Sc_            lennard-jones     9.56117  2.93551      // UFF
-V_             lennard-jones     8.05151  2.80099      // UFF
-Ni_            lennard-jones     7.54829  2.52481      // UFF
+Co_            lennard-jones     7.0451   2.55866      // UFF
+Ga_            lennard-jones   208.8361   3.90481      // UFF
+Ti_            lennard-jones     8.5547   2.8286       // UFF
+Sc_            lennard-jones     9.5612   2.93551      // UFF
+V_             lennard-jones     8.0515   2.80099      // UFF
+Ni_            lennard-jones     7.5483   2.52481      // UFF
 Zr_            lennard-jones    34.7221   2.78317      // UFF
 Mg_            lennard-jones    55.8574   2.69141      // UFF
 Ne_            lennard-jones    21.1352   2.88918      // UFF
 Ag_            lennard-jones    18.1159   2.80455      // UFF
-In_            lennard-jones   301.428    3.97608      // UFF
-Cd_            lennard-jones   114.734    2.53728      // UFF
-Sb_            lennard-jones   225.946    3.93777      // UFF
-Te_            lennard-jones   200.281    3.98232      // UFF
+Cd_            lennard-jones   114.7341   2.53728      // UFF
+Sb_            lennard-jones   225.9466   3.93777      // UFF
+Te_            lennard-jones   200.2814   3.98232      // UFF
 He             lennard-jones    10.9      2.64         // J.O. Hirschfelder et al., Molecular Theory of Gases and Liquids, Wiley, New York, 1954, p. 1114.
 O_co2          lennard-jones    85.671    3.017        // A. Garcia-Sanchez et al., J. Phys. Chem. C 2009, 113, 8814-8820.
 C_co2          lennard-jones    29.933    2.745        // idem
@@ -46,8 +54,8 @@ O_o2           lennard-jones    53.023    3.045        // A. Martin-Calvo et al.
 O_com          none                                    //
 Ar             lennard-jones   124.070    3.38         // A. Martin-Calvo et al. , Phys. Chem. Chem. Phys. 2011, 13, 11165-11174.
 CH4            lennard-jones    158.5     3.72         // M. G. Martin et al., J. Chem. Phys. 2001, 114, 7174-7181.
-H_h2           lennard-jones    0.0       0.0
-H_com          lennard-jones    36.7      2.958
+H_h2           lennard-jones    0.0       0.0          //
+H_com          lennard-jones    36.7      2.958        //
 C_co           lennard-jones    16.141    3.636        // A. Martin-Calvo et al. , J. Phys. Chem. C. 2012, 116, 6655.
 CO_com         lennard-jones    0.0       0.0          // idem
 O_co           lennard-jones    98.014    2.979        // idem
