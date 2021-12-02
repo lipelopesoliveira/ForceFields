@@ -1,4 +1,4 @@
-# ForceFields
+# Force Fields
  A repository to hold my personal developed forcefields for molecular mechanics calculations
 
 This force field is built by combining the main parameters from `DREIDING` force field for light elements, such as C, N, H, O, and others, and parameters from `UFF` for heavy elements, both used for frameworks atoms. 
