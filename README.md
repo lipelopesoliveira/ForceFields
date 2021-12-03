@@ -16,7 +16,7 @@ The conversion from kcal/mol to K is made dividing by the Boltzman constant (K<s
 
 ## DREIDING Parameters
 
-Parameters taken from Table II of *MAYO, Stephen L.; OLAFSON, Barry D.; GODDARD, William A. DREIDING: a generic force field for molecular simulations. Journal of Physical chemistry, v. 94, n. 26, p. 8897-8909, 1990.*
+Parameters taken from **Table II** of *MAYO, Stephen L.; OLAFSON, Barry D.; GODDARD, William A. DREIDING: a generic force field for molecular simulations. Journal of Physical chemistry, v. 94, n. 26, p. 8897-8909, 1990.*
 
 | Atom | R<sub>min</sub> (A)  | D<sub>0</sub> (kcal/mol) | σ (A)   | ε (K)      |
 |------|---------|---------------|---------|------------|
@@ -44,7 +44,7 @@ Parameters taken from Table II of *MAYO, Stephen L.; OLAFSON, Barry D.; GODDARD,
 
 ## UFF Parameters
 
-Parameters taken from Table 1 of *RAPPÉ, Anthony K. et al. UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations. Journal of the American chemical society, v. 114, n. 25, p. 10024-10035, 1992.*
+Parameters taken from **Table 1** of *RAPPÉ, Anthony K. et al. UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations. Journal of the American chemical society, v. 114, n. 25, p. 10024-10035, 1992.*
 
 | Atom | R<sub>min</sub> (A)  | D<sub>0</sub> (kcal/mol) | σ (A)    | ε (K)     |
 |------|----------|---------------|----------|-----------|
