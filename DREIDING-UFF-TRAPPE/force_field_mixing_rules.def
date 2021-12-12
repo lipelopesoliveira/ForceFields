@@ -1,7 +1,7 @@
 # general rule for shifted vs truncated
-truncated
+shifted
 # general rule tailcorrections
-yes
+no
 # number of defined interactions
 49
 # type,        interaction,  epsilon [K],  sigma [A] IMPORTANT: define shortest matches first, so that more specific ones overwrites these
