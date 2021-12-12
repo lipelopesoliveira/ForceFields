@@ -3,7 +3,7 @@ shifted
 # general rule tailcorrections
 no
 # number of defined interactions
-49
+57
 # type,        interaction,  epsilon [K],  sigma [A] IMPORTANT: define shortest matches first, so that more specific ones overwrites these
 H_             lennard-jones   7.648938   2.84642      // DREIDING  S.L. Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909.
 B_             lennard-jones    47.8058   3.58141      // DREIDING
