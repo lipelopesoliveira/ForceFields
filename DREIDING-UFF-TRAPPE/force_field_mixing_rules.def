@@ -62,5 +62,8 @@ O_co           lennard-jones    98.014    2.979        // idem
 S_S            lennard-jones    122.0     3.60         // M.S. Shah, M. Tsapatsis, and J.I. Siepmann J. Phys. Chem. B 119, 7041-7052 (2015).
 H_S            lennard-jones    50        2.50         // idem
 M_S            lennard-jones    0.00      0.00         // idem
+Ow             lennard-jones   89.633     3.097        // S.W. Rick, J. Chem. Phys. 2004, 120 (13), 6085-6093.
+Lw             none                                    // idem
+Hw             none                                    // idem
 # general mixing rule for Lennard-Jones
 Lorentz-Berthelot
