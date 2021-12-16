@@ -1,6 +1,6 @@
 # critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
-304.1282
-7377300.0
+540.9         // Lísal,M.,Nezbeda,I.,& Smith,W. R. (2004) 108(22), 7412-7414.
+10220000.0   // idem
 0.22394
 # total number Of atoms
 5
