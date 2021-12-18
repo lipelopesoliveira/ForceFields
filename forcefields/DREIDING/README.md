@@ -52,13 +52,13 @@ Parameters taken from **Table II** of *MAYO, Stephen L.; OLAFSON, Barry D.; GODD
 | Lw     |    -    |     -      |     [7]     |
 | Hw     |    -    |     -      |     [7]     |
 
-[1] J.O. Hirschfelder et al., Molecular Theory of Gases and Liquids, Wiley, New York, 1954, p. 1114.
-[2] J. Potoff, and J.I. Siepmann, AIChE J. 47, 1676-1682 (2001).
-[3] A. Martin-Calvo et al. , Phys. Chem. Chem. Phys. 2011, 13, 11165-11174.
-[4] M.G. Martin, and J.I. Siepmann, J. Phys. Chem. B 102, 2569-2577 (1998).
-[5] Q. Yang., and C. Zhong, J. Phys. Chem. B 2005, 109, 24, 11862–11864
-[6] A. Martin-Calvo et al. , J. Phys. Chem. C. 2012, 116, 6655.
-[7] S.W. Rick, J. Chem. Phys. 2004, 120 (13), 6085-6093.
+- [1] J.O. Hirschfelder et al., Molecular Theory of Gases and Liquids, Wiley, New York, 1954, p. 1114.
+- [2] J. Potoff, and J.I. Siepmann, AIChE J. 47, 1676-1682 (2001).
+- [3] A. Martin-Calvo et al. , Phys. Chem. Chem. Phys. 2011, 13, 11165-11174.
+- [4] M.G. Martin, and J.I. Siepmann, J. Phys. Chem. B 102, 2569-2577 (1998).
+- [5] Q. Yang., and C. Zhong, J. Phys. Chem. B 2005, 109, 24, 11862–11864
+- [6] A. Martin-Calvo et al. , J. Phys. Chem. C. 2012, 116, 6655.
+- [7] S.W. Rick, J. Chem. Phys. 2004, 120 (13), 6085-6093.
 
 
 ## Conversion method
