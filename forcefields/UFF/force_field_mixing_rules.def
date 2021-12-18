@@ -3,106 +3,102 @@ shifted
 # general rule tailcorrections
 no
 # number of defined interactions
-57
+111
 # type,        interaction,  epsilon [K],  sigma [A] IMPORTANT: define shortest matches first, so that more specific ones overwrites these
-C_             lennard-jones    52.83806   3.43085      // UFF A.K. Rappé et al., J. Am. Chem. Soc. 1992, 114, 10024-10035. 
-O_             lennard-jones    30.19317   3.11815      //
-H_             lennard-jones    22.14166   2.57113      //
-N_             lennard-jones    34.72215   3.26069      //
-F_             lennard-jones    25.16098   2.99698      //
-Na_            lennard-jones    15.09659   2.65755      //
-Mg_            lennard-jones    55.85737   2.69141      //
-Al_            lennard-jones   254.12588   4.00815      //
-Si_            lennard-jones   202.29427   3.82641      //
-P_             lennard-jones   153.48197   3.69456      //
-S_             lennard-jones   137.88216   3.59478      //
-Cl_            lennard-jones   114.23084   3.51638      //
-K_             lennard-jones    17.61269   3.39611      //
-Ca_            lennard-jones   119.76626   3.02816      //
-Sc_            lennard-jones     9.56117   2.93551      //
-Ti_            lennard-jones     8.55473   2.82860      //
-V_             lennard-jones     8.05151   2.80099      //
-Cr_            lennard-jones     7.54829   2.93187      //
-Mn_            lennard-jones     6.54185   2.63795      //
-Fe_            lennard-jones     6.54185   2.59430      //
-Co_            lennard-jones     7.04507   2.55866      //
-Ni_            lennard-jones     7.54829   2.52481      //
-Cu_            lennard-jones     2.51610   3.11369      //
-Zn_            lennard-jones    62.39923   2.46155      //
-Zr_            lennard-jones    34.72215   2.78317      //
-Mo_            lennard-jones    29.68995   2.71902      //
-Be_            lennard-jones    42.77366   2.44552      //
-B_             lennard-jones    90.57952   3.63754      //
-Ga_            lennard-jones   208.83612   3.90481      //
-Ge_            lennard-jones   190.72022   3.81305      //
-As_            lennard-jones   155.49485   3.76850      //
-Se_            lennard-jones   146.43690   3.74623      //
-Br_            lennard-jones   126.30811   3.73197      //
-Rb_            lennard-jones    20.12878   3.66516      //
-Sr_            lennard-jones   118.25660   3.24376      //
-Y_             lennard-jones    36.23181   2.98006      //
-Nb_            lennard-jones    29.68995   2.81969      //
-Tc_            lennard-jones    24.15454   2.67091      //
-Ru_            lennard-jones    28.18030   2.63973      //
-Rh_            lennard-jones    26.67064   2.60944      //
-Pd_            lennard-jones    24.15454   2.58272      //
-Ag_            lennard-jones    18.11590   2.80455      // 
-Cd_            lennard-jones   114.73410   2.53728      // 
-In_            lennard-jones   301.42852   3.97608      // 
-Sn_            lennard-jones   285.32550   3.91283      // 
-Sb_            lennard-jones   225.94660   3.93777      // 
-Te_            lennard-jones   200.28140   3.98232      // 
-
-| Cs   | 4.51700  | 0.04500       | 4.02419  | 22.64488  |
-| Ba   | 3.70300  | 0.36400       | 3.29900  | 183.17192 |
-| La   | 3.52200  | 0.01700       | 3.13775  | 8.55473   |
-| Ce   | 3.55600  | 0.01300       | 3.16804  | 6.54185   |
-| Pr   | 3.60600  | 0.01000       | 3.21258  | 5.03220   |
-| Nd   | 3.57500  | 0.01000       | 3.18496  | 5.03220   |
-| Pm   | 3.54700  | 0.00900       | 3.16002  | 4.52898   |
-| Sm   | 3.52000  | 0.00800       | 3.13596  | 4.02576   |
-| Eu   | 3.49300  | 0.00800       | 3.11191  | 4.02576   |
-| Gd   | 3.36800  | 0.00900       | 3.00055  | 4.52898   |
-| Tb   | 3.45100  | 0.00700       | 3.07449  | 3.52254   |
-| Dy   | 3.42800  | 0.00700       | 3.05400  | 3.52254   |
-| Ho   | 3.40900  | 0.00700       | 3.03707  | 3.52254   |
-| Er   | 3.39100  | 0.00700       | 3.02104  | 3.52254   |
-| Tm   | 3.37400  | 0.00600       | 3.00589  | 3.01932   |
-| Yb   | 3.35500  | 0.22800       | 2.98897  | 114.73406 |
-| Lu   | 3.64000  | 0.04100       | 3.24287  | 20.63200  |
-| Hf   | 3.14100  | 0.07200       | 2.79831  | 36.23181  |
-| Ta   | 3.17000  | 0.08100       | 2.82415  | 40.76079  |
-| W    | 3.06900  | 0.06700       | 2.73417  | 33.71571  |
-| Re   | 2.95400  | 0.06600       | 2.63171  | 33.21249  |
-| Os   | 3.12000  | 0.03700       | 2.77960  | 18.61912  |
-| Ir   | 2.84000  | 0.07300       | 2.53015  | 36.73503  |
-| Pt   | 2.75400  | 0.08000       | 2.45354  | 40.25757  |
-| Au   | 3.29300  | 0.03900       | 2.93373  | 19.62556  |
-| Hg   | 2.70500  | 0.38500       | 2.40988  | 193.73954 |
-| Tl   | 4.34700  | 0.68000       | 3.87274  | 342.18931 |
-| Pb   | 4.29700  | 0.66300       | 3.82819  | 333.63458 |
-| Bi   | 4.37000  | 0.51800       | 3.89323  | 260.66774 |
-| Po   | 4.70900  | 0.32500       | 4.19524  | 163.54636 |
-| At   | 4.75000  | 0.28400       | 4.23177  | 142.91436 |
-| Rn   | 4.76500  | 0.24800       | 4.24513  | 124.79845 |
-| Ra   | 3.67700  | 0.40400       | 3.27583  | 203.30071 |
-| Ac   | 3.47800  | 0.03300       | 3.09855  | 16.60625  |
-| Th   | 3.39600  | 0.02600       | 3.02549  | 13.08371  |
-| Pa   | 3.42400  | 0.02200       | 3.05044  | 11.07083  |
-| U    | 3.39500  | 0.02200       | 3.02460  | 11.07083  |
-| Np   | 3.42400  | 0.01900       | 3.05044  | 9.56117   |
-| Pu   | 3.42400  | 0.01600       | 3.05044  | 8.05151   |
-| Am   | 3.38100  | 0.01400       | 3.01213  | 7.04507   |
-| Cm   | 3.32600  | 0.01300       | 2.96313  | 6.54185   |
-| Bk   | 3.33900  | 0.01300       | 2.97471  | 6.54185   |
-| Cf   | 3.31300  | 0.01300       | 2.95155  | 6.54185   |
-| Es   | 3.29900  | 0.01200       | 2.93907  | 6.03863   |
-| Fm   | 3.28600  | 0.01200       | 2.92749  | 6.03863   |
-| Md   | 3.27400  | 0.01100       | 2.91680  | 5.53542   |
-| No   | 3.24800  | 0.01100       | 2.89364  | 5.53542   |
-| Lw   | 3.23600  | 0.01100       | 2.88295  | 5.53542   |
-
-
+C_             lennard-jones    52.83806  3.43085      // UFF A.K. Rappé et al., J. Am. Chem. Soc. 1992, 114, 10024-10035. 
+O_             lennard-jones    30.19317  3.11815      //
+H_             lennard-jones    22.14166  2.57113      //
+N_             lennard-jones    34.72215  3.26069      //
+F_             lennard-jones    25.16098  2.99698      //
+Na_            lennard-jones    15.09659  2.65755      //
+Mg_            lennard-jones    55.85737  2.69141      //
+Al_            lennard-jones   254.12588  4.00815      //
+Si_            lennard-jones   202.29427  3.82641      //
+P_             lennard-jones   153.48197  3.69456      //
+S_             lennard-jones   137.88216  3.59478      //
+Cl_            lennard-jones   114.23084  3.51638      //
+K_             lennard-jones    17.61269  3.39611      //
+Ca_            lennard-jones   119.76626  3.02816      //
+Sc_            lennard-jones     9.56117  2.93551      //
+Ti_            lennard-jones     8.55473  2.82860      //
+V_             lennard-jones     8.05151  2.80099      //
+Cr_            lennard-jones     7.54829  2.93187      //
+Mn_            lennard-jones     6.54185  2.63795      //
+Fe_            lennard-jones     6.54185  2.59430      //
+Co_            lennard-jones     7.04507  2.55866      //
+Ni_            lennard-jones     7.54829  2.52481      //
+Cu_            lennard-jones     2.51610  3.11369      //
+Zn_            lennard-jones    62.39923  2.46155      //
+Zr_            lennard-jones    34.72215  2.78317      //
+Mo_            lennard-jones    29.68995  2.71902      //
+Be_            lennard-jones    42.77366  2.44552      //
+B_             lennard-jones    90.57952  3.63754      //
+Ga_            lennard-jones   208.83612  3.90481      //
+Ge_            lennard-jones   190.72022  3.81305      //
+As_            lennard-jones   155.49485  3.76850      //
+Se_            lennard-jones   146.43690  3.74623      //
+Br_            lennard-jones   126.30811  3.73197      //
+Rb_            lennard-jones    20.12878  3.66516      //
+Sr_            lennard-jones   118.25660  3.24376      //
+Y_             lennard-jones    36.23181  2.98006      //
+Nb_            lennard-jones    29.68995  2.81969      //
+Tc_            lennard-jones    24.15454  2.67091      //
+Ru_            lennard-jones    28.18030  2.63973      //
+Rh_            lennard-jones    26.67064  2.60944      //
+Pd_            lennard-jones    24.15454  2.58272      //
+Ag_            lennard-jones    18.11590  2.80455      // 
+Cd_            lennard-jones   114.73410  2.53728      // 
+In_            lennard-jones   301.42852  3.97608      // 
+Sn_            lennard-jones   285.32550  3.91283      // 
+Sb_            lennard-jones   225.94660  3.93777      // 
+Te_            lennard-jones   200.28140  3.98232      // 
+Cs_            lennard-jones    22.64488  4.02419      // 
+Ba_            lennard-jones   183.17192  3.29900      // 
+La_            lennard-jones     8.55473  3.13775      // 
+Ce_            lennard-jones     6.54185  3.16804      // 
+Pr_            lennard-jones     5.03220  3.21258      // 
+Nd_            lennard-jones     5.03220  3.18496      // 
+Pm_            lennard-jones     4.52898  3.16002      // 
+Sm_            lennard-jones     4.02576  3.13596      // 
+Eu_            lennard-jones     4.02576  3.11191      // 
+Ge_            lennard-jones     4.52898  3.00055      // 
+Tb_            lennard-jones     3.52254  3.07449      // 
+Dy_            lennard-jones     3.52254  3.05400      // 
+Ho_            lennard-jones     3.52254  3.03707      // 
+Er_            lennard-jones     3.52254  3.02104      // 
+Tm_            lennard-jones     3.01932  3.00589      // 
+Yb_            lennard-jones   114.73406  2.98897      // 
+Lu_            lennard-jones    20.63200  3.24287      // 
+Hf_            lennard-jones    36.23181  2.79831      // 
+Ta_            lennard-jones    40.76079  2.82415      // 
+W_             lennard-jones    33.71571  2.73417      // 
+Re_            lennard-jones    33.21249  2.63171      // 
+Os_            lennard-jones    18.61912  2.77960      // 
+Ir_            lennard-jones    36.73503  2.53015      // 
+Pt_            lennard-jones    40.25757  2.45354      // 
+Au_            lennard-jones    19.62556  2.93373      // 
+Hg_            lennard-jones   193.73954  2.40988      // 
+Tl_            lennard-jones   342.18931  3.87274      // 
+Pb_            lennard-jones   333.63458  3.82819      // 
+Bi_            lennard-jones   260.66774  3.89323      // 
+Po_            lennard-jones   163.54636  4.19524      // 
+At_            lennard-jones   142.91436  4.23177      // 
+Rn_            lennard-jones   124.79845  4.24513      // 
+Ra_            lennard-jones   203.30071  3.27583      // 
+Ac_            lennard-jones    16.60625  3.09855      // 
+Th_            lennard-jones    13.08371  3.02549      // 
+Pa_            lennard-jones    11.07083  3.05044      // 
+U_             lennard-jones    11.07083  3.02460      // 
+Np_            lennard-jones     9.56117  3.05044      // 
+Pu_            lennard-jones     8.05151  3.05044      // 
+Am_            lennard-jones     7.04507  3.01213      // 
+Cm_            lennard-jones     6.54185  2.96313      // 
+Bk_            lennard-jones     6.54185  2.97471      // 
+Cf_            lennard-jones     6.54185  2.95155      // 
+Es_            lennard-jones     6.03863  2.93907      // 
+Fm_            lennard-jones     6.03863  2.92749      // 
+Md_            lennard-jones     5.53542  2.91680      // 
+No_            lennard-jones     5.53542  2.89364      // 
 He             lennard-jones    10.9000   2.64000      // J.O. Hirschfelder et al., Molecular Theory of Gases and Liquids, Wiley, New York, 1954, p. 1114.
 O_co2          lennard-jones    79.0000   3.05000      // J. Potoff, and J.I. Siepmann, AIChE J. 47, 1676-1682 (2001).
 C_co2          lennard-jones    27.0000   2.80000      // idem

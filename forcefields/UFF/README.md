@@ -101,7 +101,6 @@ Parameters taken from **Table 1** of *RAPPÉ, Anthony K. et al. UFF, a full peri
 | Fm   | 3.28600  | 0.01200       | 2.92749  | 6.03863   |
 | Md   | 3.27400  | 0.01100       | 2.91680  | 5.53542   |
 | No   | 3.24800  | 0.01100       | 2.89364  | 5.53542   |
-| Lw   | 3.23600  | 0.01100       | 2.88295  | 5.53542   |
 
 
 ## Gas Parameters
