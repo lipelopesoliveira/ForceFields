@@ -1,6 +1,6 @@
 # DREIDING Force Field
 
-This folder contains the necessary parameters for the use of the DREIDING force field by the RASPA program. In addition to the parameters of the DREIDING force field, which are used for the framework atoms, some specific parameters taken from the TraPPE model were added to treate the gas atoms.
+This folder contains the necessary parameters for the use of the DREIDING force field by the RASPA program. In addition to the parameters of the DREIDING force field, which are used for the framework atoms, some specific parameters taken from the TraPPE model and others were added to treate the gas atoms.
 
 ## DREIDING Parameters
 
@@ -32,7 +32,7 @@ Parameters taken from **Table II** of *MAYO, Stephen L.; OLAFSON, Barry D.; GODD
 
 ## Gas Parameters
 
-| Atom   | σ (A)   | ε (K)      | Referência  | 
+| Atom   | σ (A)   | ε (K)      |    Source   | 
 |--------|---------|------------|-------------| 
 | He     | 2.64000 | 10.900000  |     [1]     |
 | O_co2  | 3.05000 | 79.000000  |     [2]     |
