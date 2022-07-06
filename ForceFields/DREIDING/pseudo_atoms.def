@@ -1,5 +1,5 @@
 #number of pseudo atoms
-38
+47
 #type      print   as    chem  oxidation   mass        charge   polarization B-factor radii  connectivity anisotropic anisotropic-type   tinker-type
 H          yes     H     H     0           1.00794    0.0      0.0          1.0      0.250  0            0           relative           0
 B          yes     B     B     0          10.81100    0.0      0.0          1.0      0.850  0            0           relative           0
@@ -36,6 +36,15 @@ H_com      no      H     H     0           0.00000   -0.936    0.0          1.0 
 C_co       yes     C     C     0          12.01070   -0.2424   0.0          1.0      0.760  0            0           relative           0   
 CO_com     no      O     -     0           0.00000    0.5168   0.0          1.0      0.7    0            0           relative           0
 O_co       yes     O     O     0          15.99940   -0.2744   0.0          1.0      0.68   0            0           relative           0
-Ow         yes     O     O     0          15.99940    0.000    0.0          1.0      0.68   0            0           relative           0
-Hw         yes     H     H     0           1.00794    0.241    0.0          1.0      1.00   0            0           relative           0
-Lw         no      L     -     0           0.00000   -0.241    0.0          1.0      1.00   0            0           relative           0
+Ow_T5ew    yes     O     O     0          15.99940    0.000    0.0          1.0      0.68   0            0           relative           0
+Hw_T5ew    yes     H     H     0           1.00794    0.241    0.0          1.0      1.00   0            0           relative           0
+Lw_T5ew    no      L     -     0           0.00000   -0.241    0.0          1.0      1.00   0            0           relative           0
+Ow_T5      yes     O     O     0          15.99940    0.000    0.0          1.0      0.68   0            0           relative           0
+Hw_T5      yes     H     H     0           1.00794    0.241    0.0          1.0      1.00   0            0           relative           0
+Lw_T5      no      L     -     0           0.00000   -0.241    0.0          1.0      1.00   0            0           relative           0
+Ow_T4      yes     O     O     0          15.99940    0.000    0.0          1.0      0.68   0            0           relative           0
+Hw_T4      yes     H     H     0           1.00794    0.520    0.0          1.0      1.00   0            0           relative           0
+Lw_T4      no      L     -     0           0.00000   -1.040    0.0          1.0      1.00   0            0           relative           0
+Ow_T4ew    yes     O     O     0          15.99940    0.000    0.0          1.0      0.68   0            0           relative           0
+Hw_T4ew    yes     H     H     0           1.00794    0.5242   0.0          1.0      1.00   0            0           relative           0
+Lw_T4ew    no      L     -     0           0.00000   -1.04844  0.0          1.0      1.00   0            0           relative           0
