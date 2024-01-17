@@ -1,5 +1,5 @@
 #number of pseudo atoms
-120
+122
 #type      print   as    chem  oxidation   mass        charge   polarization B-factor radii  connectivity anisotropic anisotropic-type   tinker-type
 C          yes      C     C     0         12.01070    0.0      0.0          1.0      0.770  0            0           relative           0
 O          yes      O     O     0         15.99940    0.0      0.0          1.0      0.730  0            0           relative           0
@@ -121,3 +121,5 @@ Lw_T4      no      L     -     0           0.00000   -1.040    0.0          1.0 
 Ow_T4ew    yes     O     O     0          15.99940    0.000    0.0          1.0      0.68   0            0           relative           0
 Hw_T4ew    yes     H     H     0           1.00794    0.5242   0.0          1.0      1.00   0            0           relative           0
 Lw_T4ew    no      L     -     0           0.00000   -1.04844  0.0          1.0      1.00   0            0           relative           0
+O_so2      yes     O     O     0          15.99940   −0.295    0.0          1.0      0.730  0            0           relative           0
+S_so2      yes     S     S     0          32.06500    0.59     0.0          1.0      1.020  0            0           relative           0
