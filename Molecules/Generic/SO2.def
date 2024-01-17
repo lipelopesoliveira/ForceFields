@@ -1,0 +1,23 @@
+# critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
+431.6
+7920000.0
+0.256
+#Number Of Atoms
+ 3
+# Number of groups
+1
+# SO2-group
+rigid
+# number of atoms
+3
+# atomic positions     						  #NIST 2d MOL file
+0 S_so2     0.86190    0.00000    0.00000
+1 O_so2     1.72390    0.50700    0.00000
+2 O_so2     0.00000    0.50700    0.00000
+# Chiral centers Bond  BondDipoles Bend  UrayBradley InvBend  Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
+               0    2            0    0            0       0        0            0         0            0         0               0            0        0            0
+# Bond stretch: atom n1-n2, type, parameters
+0 1 RIGID_BOND
+1 2 RIGID_BOND
+# Number of config moves
+0
