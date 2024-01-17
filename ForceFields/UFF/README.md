@@ -101,8 +101,6 @@ Parameters taken from **Table 1** of *RAPPÉ, Anthony K. et al. UFF, a full peri
 | Fm   | 3.28600  | 0.01200       | 2.92749  | 6.03863   |
 | Md   | 3.27400  | 0.01100       | 2.91680  | 5.53542   |
 | No   | 3.24800  | 0.01100       | 2.89364  | 5.53542   |
-| SO2  | 3.24800  | 0.01100       | 2.89364  | 5.53542   |
-
 
 
 ## Gas Parameters
@@ -126,9 +124,6 @@ Parameters taken from **Table 1** of *RAPPÉ, Anthony K. et al. UFF, a full peri
 | Ow     | 3.09700 | 89.5730841 |   0.0000    |    [7]     |
 | Lw     |    -    |     -      |  -0.2410    |    [7]     |
 | Hw     |    -    |     -      |   0.2410    |    [7]     |
-| O_so2  |  73.8   |    3.39    |  −0.295     |    [8]     |
-| S_so2  |  79.0   |    3.05    |   0.59      |    [8]     |
-
 
 ### References
 1. J.O. Hirschfelder et al., Molecular Theory of Gases and Liquids, Wiley, New York, 1954, p. 1114.
@@ -138,7 +133,7 @@ Parameters taken from **Table 1** of *RAPPÉ, Anthony K. et al. UFF, a full peri
 5. Q. Yang., and C. Zhong, J. Phys. Chem. B 2005, 109, 24, 11862–11864
 6. A. Martin-Calvo et al. , J. Phys. Chem. C. 2012, 116, 6655.
 7. S.W. Rick, J. Chem. Phys. 2004, 120 (13), 6085-6093.
-8. J. Phys. Chem. B 2011, 115, 17, 4949–4954
+
 
 ## Conversion method
 

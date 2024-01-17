@@ -3,7 +3,7 @@ shifted
 # general rule tailcorrections
 no
 # number of defined interactions
-122
+120
 # type,        interaction,  epsilon [K],  sigma [A] IMPORTANT: define shortest matches first, so that more specific ones overwrites these
 C_             lennard-jones    52.83806  3.43085      // UFF A.K. Rappé et al., J. Am. Chem. Soc. 1992, 114, 10024-10035. 
 O_             lennard-jones    30.19317  3.11815      //
@@ -125,7 +125,5 @@ Hw_T4          none                                    // idem
 Ow_T5          lennard-jones    80.57      3.120       // Mahoney, M. W., & Jorgensen, W. L., J. Chem. Phys (2000).
 Lw_T5          none                                    // idem
 Hw_T5          none                                    // idem
-S_so2          lennard-jones    73.8       3.39        // J. Phys. Chem. B 2011, 115, 17, 4949–4954
-O_so2          lennard-jones    79.0       3.05        // J. Phys. Chem. B 2011, 115, 17, 4949–4954 
 # general mixing rule for Lennard-Jones
 Lorentz-Berthelot
