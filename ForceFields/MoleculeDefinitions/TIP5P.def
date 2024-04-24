@@ -1,7 +1,7 @@
 # critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
-521.3
-8560000
-0.637621
+521.3        // W. R. Smith, The J. of Phys. Chem. B 108.22 (2004): 7412-7414
+8560000      // W. R. Smith, The J. of Phys. Chem. B 108.22 (2004): 7412-7414
+0.637621     // W. R. Smith, The J. of Phys. Chem. B 108.22 (2004): 7412-7414
 # total number Of atoms
 5
 # number of groups

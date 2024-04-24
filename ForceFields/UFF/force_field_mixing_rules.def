@@ -117,10 +117,10 @@ Ow_T5ew        lennard-jones    89.6330   3.09700      // S.W. Rick, J. Chem. Ph
 Lw_T5ew        none                                    // idem
 Hw_T5ew        none                                    // idem
 Ow_T4ew        lennard-jones    81.89897   3.16435     // Hans W. Horn, W. C. Swope, J. Chem. Phys.(2004)
-Lw_T4ew        none                                    // idem
+M_T4ew         none                                    // idem
 Hw_T4ew        none                                    // idem
 Ow_T4          lennard-jones    77.99902   3.1536      // Jorgensen, et al. J. Chem. Phys, (1983).
-Lw_T4          none                                    // idem
+M_T4           none                                    // idem
 Hw_T4          none                                    // idem
 Ow_T5          lennard-jones    80.57      3.120       // Mahoney, M. W., & Jorgensen, W. L., J. Chem. Phys (2000).
 Lw_T5          none                                    // idem

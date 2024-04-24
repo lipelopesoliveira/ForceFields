@@ -1,7 +1,7 @@
 # critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
-304.1282
-7377300.0
-0.22394
+628.0            // I. Nezbeda, The J. of Chem phys, v. 125, n. 3, 2006.
+14100000.0       // I. Nezbeda, The J. of Chem phys, v. 125, n. 3, 2006.
+0.5293           // I. Nezbeda, The J. of Chem phys, v. 125, n. 3, 2006.
 # total number Of atoms
 4
 # number of groups
@@ -10,11 +10,11 @@
 rigid
 # number of atoms
 4
-# atomic positions
-0 Ow_T4ew       0.0                     0.0                     0.0
-1 Hw_T4ew      -0.75695032726366118157  0.0                    -0.58588227661829499395
-2 Hw_T4ew       0.75695032726366118157  0.0                    -0.58588227661829499395
-3 Lw_T4ew       0.08838834764831845     0.0                     0.08838834764831845
+# atomic positions  // T. Head-Gordon, J. Chem. Phys. 120, 9665–9678 (2004)
+0 M_T4ew                   0.00000000    0.00000000    0.00000000
+1 Ow_T4ew                  0.12500000    0.00000000    0.00000000
+2 Hw_T4ew                 -0.46259610   -0.75916456    0.00000000
+3 Hw_T4ew                 -0.46259610    0.75916456    0.00000000
 # Chiral centers Bond  BondDipoles Bend  UrayBradley InvBend  Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
                0    3            0    0            0       0        0            0         0            0         0               0            0        0            0
 # Bond stretch: atom n1-n2, type, parameters

@@ -1,7 +1,7 @@
 # critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
-540.9      // W. R. Smith, The J. of Phys. Chem. B 108.22 (2004): 7412-7414   //  orig. RASPA: 304.1282    
-10220000.0 // idem                                                            //  orig. RASPA: 7377300.0
-0.58635      // idem                                                            //  orig. RASPA: 0.22394
+540.9        // W. R. Smith, The J. of Phys. Chem. B 108.22 (2004): 7412-7414
+10220000.0   // W. R. Smith, The J. of Phys. Chem. B 108.22 (2004): 7412-7414
+0.58635      // W. R. Smith, The J. of Phys. Chem. B 108.22 (2004): 7412-7414
 # total number Of atoms
 5
 # number of groups
