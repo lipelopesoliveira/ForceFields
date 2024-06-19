@@ -4,7 +4,7 @@ This repository contains files with DREIDING and UFF force field parameters for 
 
 The general definition of the van der Waals parameters is done as follows:
 
-<img src="https://user-images.githubusercontent.com/33868364/144495503-e21b139e-a3ee-4ba7-af54-3df163ce9fcf.png" alt="Schematic_of_the_Lennard-Jones_6-12_Potential" width="400"/>
+![lennard_jones_potential](https://github.com/lipelopesoliveira/ForceFields/assets/33868364/dbdc9411-036f-49ec-8295-5915adfd1433)
 
 ![CodeCogsEqn](https://user-images.githubusercontent.com/33868364/144495206-9dd075db-1c04-4969-98fc-3cb84b82e332.png)
 
