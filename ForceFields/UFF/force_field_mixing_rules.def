@@ -13,9 +13,9 @@ F_             lennard-jones    25.16098  2.99698      //
 Na_            lennard-jones    15.09659  2.65755      //
 Mg_            lennard-jones    55.85737  2.69141      //
 Al_            lennard-jones   254.12588  4.00815      //
+S_             lennard-jones   137.88216  3.59478      //
 Si_            lennard-jones   202.29427  3.82641      //
 P_             lennard-jones   153.48197  3.69456      //
-S_             lennard-jones   137.88216  3.59478      //
 Cl_            lennard-jones   114.23084  3.51638      //
 K_             lennard-jones    17.61269  3.39611      //
 Ca_            lennard-jones   119.76626  3.02816      //
@@ -31,8 +31,8 @@ Cu_            lennard-jones     2.51610  3.11369      //
 Zn_            lennard-jones    62.39923  2.46155      //
 Zr_            lennard-jones    34.72215  2.78317      //
 Mo_            lennard-jones    29.68995  2.71902      //
-Be_            lennard-jones    42.77366  2.44552      //
 B_             lennard-jones    90.57952  3.63754      //
+Be_            lennard-jones    42.77366  2.44552      //
 Ga_            lennard-jones   208.83612  3.90481      //
 Ge_            lennard-jones   190.72022  3.81305      //
 As_            lennard-jones   155.49485  3.76850      //
