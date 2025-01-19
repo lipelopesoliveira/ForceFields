@@ -6,8 +6,9 @@ The general definition of the van der Waals parameters is done as follows:
 
 ![lennard_jones_potential](https://github.com/lipelopesoliveira/ForceFields/assets/33868364/dbdc9411-036f-49ec-8295-5915adfd1433)
 
-![CodeCogsEqn](https://user-images.githubusercontent.com/33868364/144495206-9dd075db-1c04-4969-98fc-3cb84b82e332.png)
-
+$$
+V_{LJ} = 4\varepsilon \left[ \left( \frac{\sigma}{r}\right)^{12} - \left( \frac{\sigma}{r}\right)^{6} \right]
+$$
 
 The Lennard-Jones potential has it minumum at a ditance R<sub>min</sub> = 2<sup>1/6</sup> . σ, so the conversion from R<sub>min</sub> to sigma is made dividing R<sub>min</sub> by 2<sup>1/6</sup>.
 
