@@ -11,9 +11,9 @@ rigid
 # number of atoms
 3
 # atomic positions     						  #NIST 2d MOL file
-0 S_so2     0.86190    0.00000    0.00000
-1 O_so2     1.72390    0.50700    0.00000
-2 O_so2     0.00000    0.50700    0.00000
+0 O_so2     0.00000    0.50700    0.00000
+1 S_so2     0.86190    0.00000    0.00000
+2 O_so2     1.72390    0.50700    0.00000
 # Chiral centers Bond  BondDipoles Bend  UrayBradley InvBend  Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
                0    2            0    0            0       0        0            0         0            0         0               0            0        0            0
 # Bond stretch: atom n1-n2, type, parameters
