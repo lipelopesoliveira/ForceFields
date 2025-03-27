@@ -3,7 +3,7 @@ shifted
 # general rule tailcorrections
 no
 # number of defined interactions
-49
+51
 # type,        interaction,  epsilon [K],  sigma [A] IMPORTANT: define shortest matches first, so that more specific ones overwrites these
 H_             lennard-jones   7.648938   2.84642      // DREIDING  S.L. Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909.
 B_             lennard-jones    47.8058   3.58141      // DREIDING
@@ -35,8 +35,8 @@ O_o2           lennard-jones    53.0230   3.04500      // idem
 O_com          none                                    // idem
 Ar             lennard-jones   124.0700   3.38000      // idem
 CH4            lennard-jones   148.0000   3.73000      // M.G. Martin, and J.I. Siepmann, J. Phys. Chem. B 102, 2569-2577 (1998)
-H_h2           none                                    // Q. Yang., and C. Zhong, J. Phys. Chem. B 2005, 109, 24, 11862–11864
-H_com          lennard-jones    10.0000   2.72000      //
+H_h2           none                                    // Paula García-Holley et al., ACS Energy Lett. 2018, 3, 3, 748–754
+H_com          feynman-hibbs-lennard-jones    36.7000   2.95800    1.008  //
 C_co           lennard-jones    16.1410   3.63600      // A. Martin-Calvo et al. , J. Phys. Chem. C. 2012, 116, 6655.
 CO_com         none                                    // idem
 O_co           lennard-jones    98.0140   2.97900      // idem
@@ -54,5 +54,7 @@ Lw_T5          none                                    // idem
 Hw_T5          none                                    // idem
 S_so2          lennard-jones    73.8       3.39        // J. Phys. Chem. B 2011, 115, 17, 4949–4954
 O_so2          lennard-jones    79.0       3.05        // J. Phys. Chem. B 2011, 115, 17, 4949–4954 
+Ow_spce        lennard-jones    78.15      3.166       // J. Phys. Chem. A 2001, 105, 9954-9960
+Hw_spce        none
 # general mixing rule for Lennard-Jones
 Lorentz-Berthelot

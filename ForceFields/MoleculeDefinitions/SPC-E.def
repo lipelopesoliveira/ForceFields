@@ -1,0 +1,23 @@
+# critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
+623.0        // W. C. Volker, The Journal of Chemical Physics 146.5 (2017)
+13400000     // W. C. Volker, The Journal of Chemical Physics 146.5 (2017)
+0.580722     // W. C. Volker, The Journal of Chemical Physics 146.5 (2017)
+# total number Of atoms
+3
+# number of groups
+1
+# water-group
+rigid
+# number of atoms
+3
+# atomic positions
+0 Ow_spce                  0.00000000    0.00000000    0.00000000
+1 Hw_spce                  0.65806264   -0.75296318    0.00000000
+2 Hw_spce                  0.49056485    0.87140469    0.00000000
+# Chiral centers Bond  BondDipoles Bend  UrayBradley InvBend  Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
+               0    2            0    0            0       0        0            0         0            0         0               0            0        0            0
+# Bond stretch: atom n1-n2, type, parameters
+0 1 RIGID_BOND
+0 2 RIGID_BOND
+# Number of config moves
+0
