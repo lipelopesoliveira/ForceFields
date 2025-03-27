@@ -35,8 +35,8 @@ O_o2           lennard-jones    53.0230   3.04500      // idem
 O_com          none                                    // idem
 Ar             lennard-jones   124.0700   3.38000      // idem
 CH4            lennard-jones   148.0000   3.73000      // M.G. Martin, and J.I. Siepmann, J. Phys. Chem. B 102, 2569-2577 (1998)
-H_h2           none                                    // Q. Yang., and C. Zhong, J. Phys. Chem. B 2005, 109, 24, 11862–11864
-H_com          lennard-jones    10.0000   2.72000      //
+H_h2           none                                    // Paula García-Holley et al., ACS Energy Lett. 2018, 3, 3, 748–754
+H_com          feynman-hibbs-lennard-jones    36.7000   2.95800    1.008  //
 C_co           lennard-jones    16.1410   3.63600      // A. Martin-Calvo et al. , J. Phys. Chem. C. 2012, 116, 6655.
 CO_com         none                                    // idem
 O_co           lennard-jones    98.0140   2.97900      // idem
